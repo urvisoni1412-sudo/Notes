@@ -6,7 +6,7 @@ const {
   createNote,
   updateNote,
   deleteNote,
-} = require("../controller/noteController");
+} = require("../controllers/noteController");
 
 router.use(protect);
 

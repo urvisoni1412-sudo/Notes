@@ -6,7 +6,7 @@ dotenv.config({ path: path.join(__dirname, '.env') });
 const noteRoutes = require("./routes/noteRoutes");
 const app = express();
 const connectDB = require('./config/db');
-const authRoutes = require("./routes/authRoutes");   // upar imports me
+const authRoutes = require("./routes/authRoutes");  
 app.use(cors());
 app.use(express.json());
 
